@@ -24,14 +24,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 pserver client extension. Current version has read-only streams wrapper.
 Later versions to include commit/diff/log support.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Modu³ klienta CVS pserver. Na chwilê obecn± dostêpne jest wsparcie tylko
 'read only'. W nastêpnych wersjach planowane jest wsparcie dla komend
 commit/diff/log.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
