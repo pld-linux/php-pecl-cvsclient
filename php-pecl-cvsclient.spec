@@ -4,12 +4,12 @@
 Summary:	%{_modname} - CVS pserver client
 Summary(pl):	%{_modname} - klient CVS pserver
 Name:		php-pecl-%{_modname}
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	c4ad1c1a9f33d6985d8b96d3dd48133c
+# Source0-md5:	d25ca6d7797118edf37817fcb7e93bc7
 URL:		http://pecl.php.net/package/cvsclient/
 BuildRequires:	libtool
 BuildRequires:	php-devel
