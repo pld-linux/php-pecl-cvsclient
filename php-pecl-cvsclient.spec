@@ -1,5 +1,5 @@
 %define		_modname	cvsclient
-%define		_status		alpha
+%define		_status		beta
 
 Summary:	%{_modname} - CVS pserver client
 Summary(pl):	%{_modname} - klient CVS pserver
