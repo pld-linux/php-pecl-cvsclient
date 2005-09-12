@@ -21,15 +21,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-pserver client extension. Current version has read-only streams wrapper.
-Later versions to include commit/diff/log support.
+pserver client extension. Current version has read-only streams
+wrapper. Later versions to include commit/diff/log support.
 
 In PECL status of this package is: %{_status}.
 
 %description -l pl
-Modu³ klienta CVS pserver. Na chwilê obecn± dostêpne jest wsparcie tylko
-'read only'. W nastêpnych wersjach planowane jest wsparcie dla komend
-commit/diff/log.
+Modu³ klienta CVS pserver. Na chwilê obecn± dostêpne jest wsparcie
+tylko 'read only'. W nastêpnych wersjach planowane jest wsparcie dla
+komend commit/diff/log.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
