@@ -6,7 +6,7 @@ Summary:	%{_modname} - CVS pserver client
 Summary(pl):	%{_modname} - klient CVS pserver
 Name:		php-pecl-%{_modname}
 Version:	0.2
-Release:	3
+Release:	4
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
