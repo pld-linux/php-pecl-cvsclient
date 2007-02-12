@@ -1,7 +1,7 @@
 %define		_modname	cvsclient
 %define		_status		beta
 Summary:	%{_modname} - CVS pserver client
-Summary(pl.UTF-8):   %{_modname} - klient CVS pserver
+Summary(pl.UTF-8):	%{_modname} - klient CVS pserver
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	5
