@@ -1,7 +1,7 @@
 %define		_modname	cvsclient
 %define		_status		beta
 Summary:	%{_modname} - CVS pserver client
-Summary(pl):	%{_modname} - klient CVS pserver
+Summary(pl.UTF-8):   %{_modname} - klient CVS pserver
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	5
@@ -23,9 +23,9 @@ wrapper. Later versions to include commit/diff/log support.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Modu³ klienta CVS pserver. Na chwilê obecn± dostêpne jest wsparcie
-tylko 'read only'. W nastêpnych wersjach planowane jest wsparcie dla
+%description -l pl.UTF-8
+ModuÅ‚ klienta CVS pserver. Na chwilÄ™ obecnÄ… dostÄ™pne jest wsparcie
+tylko 'read only'. W nastÄ™pnych wersjach planowane jest wsparcie dla
 komend commit/diff/log.
 
 To rozszerzenie ma w PECL status: %{_status}.
