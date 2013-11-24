@@ -5,7 +5,7 @@ Summary:	%{modname} - CVS pserver client
 Summary(pl.UTF-8):	%{modname} - klient CVS pserver
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.2
-Release:	7
+Release:	8
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -16,6 +16,7 @@ BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
 Obsoletes:	php-pear-%{modname}
+Provides:	php(%{modname}) = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
